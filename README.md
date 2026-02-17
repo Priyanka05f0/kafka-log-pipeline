@@ -74,7 +74,7 @@ kafka-log-pipeline/
 
 ## Setup Instructions
 
-### 1️⃣ Install Prerequisites
+### 1️. Install Prerequisites
 
 - Install Docker Desktop
 - Ensure Docker Compose is available:
@@ -85,7 +85,7 @@ docker compose version
 
 ---
 
-### 2️⃣ Build and Run the Pipeline
+### 2️. Build and Run the Pipeline
 
 From project root:
 ```bash
@@ -104,7 +104,7 @@ You should see:
 
 ---
 
-### 3️⃣ View Logs
+### 3️. View Logs
 
 Producer logs:
 ```bash
@@ -116,7 +116,7 @@ docker compose logs consumer
 ```
 ---
 
-### 4️⃣ Verify Output File
+### 4️. Verify Output File
 
 Filtered logs are saved to:
 ```
